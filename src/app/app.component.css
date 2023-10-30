@@ -1,0 +1,16 @@
+b
+{
+    color: red;
+}
+b::hover{
+    animation: booo 1s alternate-reverse infinite;
+}
+@keyframes booo {
+    0%{
+        transform: skewX(45deg);
+    }
+    100%{
+        transform: skewY(180deg);
+    }
+    
+}
